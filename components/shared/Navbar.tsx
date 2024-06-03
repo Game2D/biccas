@@ -44,7 +44,7 @@ const Navbar = () => {
             <Link
                 key='Login'
                 href='/login'
-                className={`nav-item`}
+                className={`nav-item login`}
             >
                 Login
             </Link> 
