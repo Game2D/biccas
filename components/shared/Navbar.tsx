@@ -31,7 +31,7 @@ const Navbar = () => {
                 <Link
                     key={link.name}
                     href={link.url}
-                    className={`nav-item ${link.url == window.location.pathname ? 'active' : ''}`}
+                    className={`nav-item`}
                 >
                     {link.name}   
                 </Link> 
